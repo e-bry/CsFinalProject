@@ -37,9 +37,9 @@ nav {
   font-weight: bold;
   float: left;
   width: 160px;
-  min-height: 100vh; 
   padding: 20px 5px 0 20px;
   box-sizing: border-box;
+  min-height: 100%;
 }
 
 nav ul {
@@ -65,19 +65,14 @@ nav a:visited {
 }
 
 nav a:hover { 
-  color: #014421; 
-}
-
-h2, h3, dt, .resort {
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #014421; /* Dark green hover */
 }
 
 main { 
   padding: 20px;
   margin-left: 180px; 
   background-color: #ffffff;
-  min-height: 100vh; 
+  padding-bottom: 100px; 
 }
 
 main img { 
@@ -97,6 +92,11 @@ footer {
   padding: 10px;
   margin-left: 180px;
   background-color: #ffffff;
+}
+
+h2, h3, dt, .resort {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .clear { 
